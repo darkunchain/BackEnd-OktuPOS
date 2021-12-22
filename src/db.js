@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/oktupos',{
+mongoose.connect('mongodb://app.remicos.com.co/oktupos',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
